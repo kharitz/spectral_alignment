@@ -34,7 +34,7 @@ do_save          = 1;      % To save files and results
 
 % Load the reference mesh
        
-id0 = 'HLN-12-6'; % Can pick any subject from the dataset
+id0 = 'any_subject_id'; % Can pick any subject from the dataset
 disp(['*** Loading reference' id0]);
 filename = [datapath '/' id0 ];
 
