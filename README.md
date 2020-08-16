@@ -23,3 +23,32 @@ This repository contains the matlab implementation of the graph spectral alignme
 python3 mat2pyt.py
 ```
 
+#### REFERENCE 
+Please cite our papers if you use this code in your own work:
+
+```
+@article{lombaert2012focusr,
+  title={FOCUSR: feature oriented correspondence using spectral regularization--a method for precise surface matching},
+  author={Lombaert, Herve and Grady, Leo and Polimeni, Jonathan R and Cheriet, Farida},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={35},
+  number={9},
+  pages={2143--2160},
+  year={2012},
+  publisher={IEEE}
+}
+```
+```
+@article{gopinath2019graph,
+  title={Graph convolutions on spectral embeddings for cortical surface parcellation},
+  author={Gopinath, Karthik and Desrosiers, Christian and Lombaert, Herve},
+  journal={Medical image analysis},
+  volume={54},
+  pages={297--305},
+  year={2019},
+  publisher={Elsevier}
+}
+```
+
+### Future
+The python implementation of the graph spectral alignment is coming soon!
