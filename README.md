@@ -7,6 +7,7 @@ main.m
   2. Spectral embedding of the brain graph is computed.
   3. Spectral basis of each subject is aligned to a common reference from the dataset.
   4. Computed embeddings, transformation and aligned spectral embeddings are saved in "output" folder.
+
 mat2pyt.py
   1. Convert data from ".mat" files to ".pt" for DeepLearning algorithms later use in PyTorch.
 
