@@ -1,5 +1,5 @@
 # Graph Spectral Alignment
-This repository contains the matlab implementation of the graph spectral alignment originally proposed in "FOCUSR: Feature Oriented Correspondence using Spectral Regularization - A Method for Precise Surface Matching", by Lombaert, H. et. al., published in PAMI 2013. We perform this spectral alignment to overcome the limitationso of spectral graph convolution networks in our work "Graph Convolutions on Spectral Embeddings for Cortical Surface Parcellation", published in Medical Image Analysis, January 2019. 
+This repository contains the matlab implementation of the graph spectral alignment originally proposed in "FOCUSR: Feature Oriented Correspondence using Spectral Regularization - A Method for Precise Surface Matching", by Lombaert, H. et. al., published in PAMI 2013. We perform this spectral alignment to overcome the limitations of spectral graph convolution networks in our work "Graph Convolutions on Spectral Embeddings for Cortical Surface Parcellation", published in Medical Image Analysis, January 2019. 
 
 ### What does the reopositery do?
 - main.m
