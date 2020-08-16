@@ -9,8 +9,9 @@ This repository contains the matlab implementation of the graph spectral alignme
 5. Data from ".mat" files are converted to ".pt" for DeepLearning algorithms in PyTorch.
 
 ### Where to find the dataset?
--- The MindBoggle dataset is available to download here[].
--- The ADNI dataset is available to download here.
+- The MindBoggle dataset is available to download here[].
+
+- The ADNI dataset is available to download here.
 
 ### Package Requirements
 - matlab2018 or higher
