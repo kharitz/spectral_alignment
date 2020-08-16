@@ -10,7 +10,6 @@ This repository contains the matlab implementation of the graph spectral alignme
 
 ### Where to find the dataset?
 - The MindBoggle dataset is available to download here[].
-
 - The ADNI dataset is available to download here.
 
 ### Package Requirements
@@ -18,5 +17,10 @@ This repository contains the matlab implementation of the graph spectral alignme
 - python3, pytorch>1.0 
 
 ### Usage
-
+- Open matlab in the downloaded folder and RUN the file "main.m" to perform 1-4.
+- Run python script to convert ".mat"-->".pt"
+'''
+python3 mat2pyt.py
+'''
+5
 
