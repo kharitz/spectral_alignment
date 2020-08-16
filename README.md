@@ -2,13 +2,13 @@
 This repository contains the matlab implementation of the graph spectral alignment originally proposed in "FOCUSR: Feature Oriented Correspondence using Spectral Regularization - A Method for Precise Surface Matching", by Lombaert, H. et. al., published in PAMI 2013. We perform this spectral alignment to overcome the limitationso of spectral graph convolution networks in our work "Graph Convolutions on Spectral Embeddings for Cortical Surface Parcellation", published in Medical Image Analysis, January 2019. 
 
 ### What does the reopositery do?
-main.m
+- main.m
   1. FreeSurfer brain surfaces is read from the "dataset" folder.
   2. Spectral embedding of the brain graph is computed.
   3. Spectral basis of each subject is aligned to a common reference from the dataset.
   4. Computed embeddings, transformation and aligned spectral embeddings are saved in "output" folder.
 
-mat2pyt.py
+- mat2pyt.py
   1. Convert data from ".mat" files to ".pt" for DeepLearning algorithms later use in PyTorch.
 
 ### Where to find the dataset?
