@@ -5,7 +5,7 @@ from os import listdir
 from os.path import isfile, join
 import scipy.io as sio
 from tqdm import tqdm
-from utils.mis_function.graph_sample import GraphSample
+from utils.mis_functions.graph_sample import GraphSample
 
 data_name = 'mindboggle'
 data_path = './output/' + data_name +'_forpy/'
@@ -18,7 +18,7 @@ files = [f for f in listdir(data_path) if isfile(join(data_path, f))]
 
 for cnt in tqdm(range(len(files))):
 
-    temp = sio.loadmat(path_train + '/' + files[cnt])
+    temp = sio.loadmat(data_path + '/' + files[cnt])
     x = torch.cat((torch.FloatTensor(temp['X'][:, 0:3]),
                    torch.FloatTensor(temp['C']),
                    torch.FloatTensor(temp['T'])), 1)
